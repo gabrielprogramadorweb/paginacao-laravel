@@ -36,7 +36,7 @@ A paginação em Laravel é um recurso poderoso que permite dividir grandes conj
    O método `links()` gera automaticamente os links de paginação com base nos dados fornecidos.
 
 4. **Personalização:**
-   Você pode personalizar a aparência dos links de paginação e ajustar configurações como o número de itens por página. Por exemplo:
+   Você pode personalizar a aparência dos links de paginação e ajustar configurações como o número de itens por página. Por exemplo::
 
    ```blade
    {{ $dadosPaginados->links('pagination.custom') }}
